@@ -61,7 +61,7 @@ const Card = ({ id, name, height, weight }) => {
           <h3>{name ? name : 'Loading...'}</h3>
           <p>Base experience: {pokemonData ? pokemonData.base_experience : 'Loading...'}</p>
           <p>Height: {pokemonData ? pokemonData.height : 'Loading...'}</p>
-          <p>Weight: {pokemonData ? pokemonData.base_experience : 'Loading...'}</p>
+          <p>Weight: {pokemonData ? pokemonData.weight : 'Loading...'}</p>
         </div>
       </Link>
 
